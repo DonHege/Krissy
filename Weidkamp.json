@@ -1,11 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "target":"."
-        }
-    },
  "height":25,
  "infinite":false,
  "layers":[
@@ -213,6 +206,12 @@
          "id":12,
          "name":"Bild_Flur",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/cloud.familie-hegenberg.de\/index.php\/apps\/files\/?dir=\/Bilder_Workadventure&fileid=24067"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":60,
@@ -254,11 +253,11 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":18,
+ "nextlayerid":20,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.5.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -659,6 +658,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":1.5,
  "width":60
 }
